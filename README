@@ -1,0 +1,12 @@
+These are the firmware files used by the hdsploader utility.  They are
+necessary when using the RME Hammerfall Multiface II PCIe card and box:
+
+  https://archiv.rme-audio.de/en/products/multiface_2.php
+
+The hdsploader utility is part of the alsa-firmware-loaders Debian
+package, but the firmware files are apparently nowhere to be found
+these days, so I've uploaded them here.  The two files should be
+installed like this so that hdsploader can find them:
+
+/usr/lib/firmware/hdsploader/multiface_firmware.bin
+/usr/lib/firmware/hdsploader/multiface_firmware_rev11.bin
